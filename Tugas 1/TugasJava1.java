@@ -19,6 +19,7 @@ public class TugasJava1 {
         System.out.print("Masukkan NIM  : ");
         nim = scan.nextInt();
         scan.nextLine();
+        scan.close();
 
     }
 
@@ -29,9 +30,10 @@ public class TugasJava1 {
         System.out.println("Nama : " + nama);
         System.out.println("NIM  : " + nim);
 
-        char pilih;
+
         System.out.println("Tekan Enter Untuk Melanjutkan");
         scan.nextLine();
+        scan.close();
 
     }
 
@@ -50,6 +52,7 @@ public class TugasJava1 {
             System.out.println("3. Keluar");
             System.out.print("Pilihan: ");
             pilihan = scan.nextInt();
+            scan.close();
 
             switch (pilihan) {
                 case 1:
